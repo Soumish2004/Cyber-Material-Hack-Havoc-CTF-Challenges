@@ -1,0 +1,15 @@
+## Drunken website
+### Category: WEB
+### Points: 30
+### Description
+A coder, tipsy and on a deadline, unleashed a website that's a chaotic mess of broken links and jumbled code in so many language imaginable. The site’s live, and the flag is hidden in the mayhem. Your challenge? Navigate this digital disaster, debug the chaos, and find the elusive flag.
+
+http://challenge.ctf.cybermaterial.com/dissssissssimpul/
+
+
+### Approach
+After going to the given website, if we go through the source code, we see that there is a link to [homepage.html#](http://challenge.ctf.cybermaterial.com/dissssissssimpul/homepage.html#), if we visit to that link, the page looks similar but its not. Now if we see the source code of this page we can see there is a link to some other page [dissssissssimpul/0.html](http://challenge.ctf.cybermaterial.com/dissssissssimpul/0.html). Now when we inspect this page we find the flag in its source code.
+
+#### Flag: CM{W3bs1t3_15_5hi7}
+
+
